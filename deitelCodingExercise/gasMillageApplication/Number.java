@@ -8,7 +8,7 @@ public class Number {
                 for (int i = 1; i <= numb1; i++) {
             score += numb2;  }
         
-            
+          // System.out.print("student " +(count+1))
         return score;
     }
     

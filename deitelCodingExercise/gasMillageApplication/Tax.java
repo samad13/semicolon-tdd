@@ -5,7 +5,7 @@ public class Tax {
     public double amount(int amount) {
        double paid = 0;
 	if(amount <= 0){
-	throw new illegalArgumentException("invalid amount")
+	throw new RuntimeException("invalid amount");
 	}else if(amount == 30000 )   {
 	paid = amount * 0.15;
 	}else if(amount > 30000 ) {   
@@ -13,7 +13,6 @@ public class Tax {
 }
         return paid;
     }
-
     
 
    public static void main(String[] args) {

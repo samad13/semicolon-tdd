@@ -5,14 +5,13 @@ public class TwoInt{
 	
 	TwoIntegers check = new TwoIntegers();
 
-	
+
 	System.out.print("enter number1: ");  
         int num1 = input.nextInt();
 
 	System.out.print("enter number2: ");  
         int num2 = input.nextInt();
 
-	
 	int result = check.two(num1, num2);
 	
 

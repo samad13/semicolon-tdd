@@ -8,13 +8,9 @@ public int two (int number1, int number2) {
 
 	 result *= number1;
 	
-	
 	}
 	
 	return result;
-
-
-
 
  	} 
 }
